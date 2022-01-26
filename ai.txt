@@ -1,0 +1,26 @@
+1. Did you attempt to make your computer player very smart
+-- i.e., do something more clever than just pick a random legal move?
+Answer:
+Yes. The computer player I sign will choose the cell which will flip the tile to get the longest list of the computer_color tiles. 
+
+2. If so, were you able to accomplish this?
+Is your computer player as smart as you would like?
+Answer:
+Yes.
+Yes.
+
+3. How did you determine which piece to play next?
+Tell us about your “pick next move” algorithm
+Answer:
+To choose the next step of the computer, I use a dictionary to help check
+Currently legal cells. I loop through 64 cells, check each cell, and if it is valid, I make it as a keyword in my dictionary. Meanwhile, I note down the
+disks that can be flipped as a list if the computer takes this cell as computer move.
+So finally I will get a dictionary whose key value pairs are legal moves
+and the corresponding disks to flip.
+
+4. How often did your computer program beat you, or your friends,
+or whoever tested it out for you?
+The computer beats me 50% or so.
+
+5. How would you improve it in the future?
+In the future, I would set a timer for this game.
